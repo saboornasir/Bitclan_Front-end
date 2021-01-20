@@ -1,0 +1,89 @@
+
+@font-face {
+	font-family:'Ubuntu', sans-serif ;
+	src: url(font/font-fam/Ubuntu-Bold.ttf);
+}
+@font-face {
+	font-family:'Ubuntu', sans-serif ;
+	src: url(font/font-fam/Ubuntu-Light.ttf);
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+	background-color: rgba(0.5, 0, 0, 0.541);
+}
+.carousel-caption{
+     bottom: 38%;
+}
+.carousel-item  img{
+	width: 100%;
+	
+}
+.btn-position{
+	position: absolute;
+	bottom: 10%;
+	left: 40%;
+}
+.carousel-inner img {
+    width: 100%;
+   height: 100vh;
+	object-fit: cover;
+  }
+
+.main-font{
+	font-size: 56px;
+	text-align: center;
+	color: #fff;
+	font-family: inherit;
+	font-weight: bold;
+
+}
+.main-coming{
+	font-size: 46px;
+	text-align: center;
+	color: #000;
+	font-family: inherit;
+	font-weight: bold;
+
+}
+.font-div h2{
+	font-size: 40px;
+	
+	color: #fff;
+	font-family: inherit;
+	font-weight: 300;
+
+}
+.list-styling{
+	position: relative;
+	list-style: none;
+}
+.w-13{
+	width: 13%;
+}
+
+li::before {
+    content: 'o';
+    position: absolute;
+    left: 1.2em;          
+    font-size: 1em;      
+}
+
+@media only  screen and (max-width: 585px){
+	.navbar{
+	   background-color: #000;
+	}
+	.btn-position { 
+    left: 8%;
+    }
+    
+.h1, h1 {
+    font-size: 1.7rem;
+}.font-div h2 {
+    font-size: 25px;}
+}
